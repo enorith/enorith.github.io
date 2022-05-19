@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="VuePress 2.0.0-beta.45">
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html, body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme');
+			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				document.documentElement.classList.toggle('dark', true);
+			}
+    </script>
+    <title>Enorith</title><meta name="description" content="A golang framework for web artisan">
+    <link rel="modulepreload" href="/assets/app.61d94df6.js"><link rel="modulepreload" href="/assets/404.html.4a7ec7ad.js"><link rel="modulepreload" href="/assets/404.html.f166316b.js"><link rel="prefetch" href="/assets/index.html.ea5e9ca9.js"><link rel="prefetch" href="/assets/getting-started.html.cf4e5b1e.js"><link rel="prefetch" href="/assets/project-structure.html.daf17557.js"><link rel="prefetch" href="/assets/about.html.16eac9d8.js"><link rel="prefetch" href="/assets/index.html.aa4e032a.js"><link rel="prefetch" href="/assets/index.html.e6d45d43.js"><link rel="prefetch" href="/assets/getting-started.html.849f7a88.js"><link rel="prefetch" href="/assets/project-structure.html.38a93575.js"><link rel="prefetch" href="/assets/about.html.0075c783.js"><link rel="prefetch" href="/assets/index.html.6f67120e.js"><link rel="prefetch" href="/assets/404.7f6a1687.js"><link rel="prefetch" href="/assets/Layout.fe0a1e2a.js">
+    <link rel="stylesheet" href="/assets/style.e04b053e.css">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container"><div class="theme-default-content"><h1>404</h1><blockquote>That&#39;s a Four-Oh-Four.</blockquote><a href="/" class="">Take me home</a></div></div><!----><!--]--></div>
+    <script type="module" src="/assets/app.61d94df6.js" defer></script>
+  </body>
+</html>
