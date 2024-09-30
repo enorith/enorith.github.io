@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.15" />
+    <style>
+      :root {
+        --vp-c-bg: #fff;
+      }
+
+      [data-theme='dark'] {
+        --vp-c-bg: #1b1b1f;
+      }
+
+      html,
+      body {
+        background-color: var(--vp-c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme')
+      const systemDarkMode =
+        'matchMedia' in window
+          ? window.matchMedia('(prefers-color-scheme: dark)').matches
+          : false
+
+      if (userMode === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (userMode === 'dark' || systemDarkMode) {
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
+    <title>Enorith</title><meta name="description" content="A golang framework for web artisan">
+    <link rel="preload" href="/assets/style-DkJH5KXW.css" as="style"><link rel="stylesheet" href="/assets/style-DkJH5KXW.css">
+    <link rel="modulepreload" href="/assets/app-CDIvFa4A.js"><link rel="modulepreload" href="/assets/404.html-BSJPAAkN.js">
+    <link rel="prefetch" href="/assets/index.html-Db8ZWpS-.js" as="script"><link rel="prefetch" href="/assets/service.html-BNmOH3k2.js" as="script"><link rel="prefetch" href="/assets/home.html-jE_Kj_E0.js" as="script"><link rel="prefetch" href="/assets/getting-started.html-Do08CzuT.js" as="script"><link rel="prefetch" href="/assets/project-structure.html-odUe5axT.js" as="script"><link rel="prefetch" href="/assets/http.html-jikvPfr9.js" as="script"><link rel="prefetch" href="/assets/about.html-DGGw1rzD.js" as="script"><link rel="prefetch" href="/assets/getting-started.html-B_wizSJc.js" as="script"><link rel="prefetch" href="/assets/project-structure.html-Dm6ucb2O.js" as="script"><link rel="prefetch" href="/assets/http.html-hj2nF7oJ.js" as="script"><link rel="prefetch" href="/assets/about.html-DfEd3Sj4.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="vp-theme-container" vp-container data-v-463c2c5d><main class="page" data-v-463c2c5d><div class="theme-default-content" vp-content data-v-463c2c5d><h1 data-v-463c2c5d>404</h1><blockquote data-v-463c2c5d>How did we get here?</blockquote><a class="route-link" href="/" data-v-463c2c5d>Take me home</a></div></main></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/assets/app-CDIvFa4A.js" defer></script>
+  </body>
+</html>
